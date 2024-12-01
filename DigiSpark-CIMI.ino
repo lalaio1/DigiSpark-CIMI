@@ -56,7 +56,7 @@ void safePrint(const char* text) {
 }
 
 // Função pra imprimir o texto direto, sem atraso
-void noSafePrint(const char* text) {
+void Command(const char* text) {
   DigiKeyboard.print(text);  // -= Imprime o texto direto
 }
 
@@ -89,7 +89,7 @@ void setup() {
 
   // -= Executa o comando
   safeDelay(LONG_DELAY);
-  noSafePrint("echo Hello World!");  // -= Envia comando pra mostrar "Hello World!"
+  Command("echo Hello World!");  // -= Envia comando pra mostrar "Hello World!"
   safeDelay(SHORT_DELAY);
   safeSendKeyStroke(KEY_ENTER);  // -= Executa o comando no CMD
 
