@@ -12,11 +12,11 @@ Este script foi desenvolvido para ser executado em dispositivos baseados em Digi
 
 Para alterar o comando que é enviado ao CMD, basta modificar a linha no código onde o comando é enviado:
 ```cpp
-noSafePrint("echo Hello World!");  // Comando original
+Command("echo Hello World!");  // Comando original
 ```
 Troque `"echo Hello World!"` pelo comando desejado. Exemplo:
 ```cpp
-noSafePrint("dir C:\\");  // Para listar os arquivos na raiz do C:
+Command("dir C:\\");  // Para listar os arquivos na raiz do C:
 ```
 
 ### 🔧 Exemplo de comandos:
@@ -40,7 +40,7 @@ noSafePrint("dir C:\\");  // Para listar os arquivos na raiz do C:
 
 ## 🔄 Como modificar a execução
 
-1. **Comandos**: Mude o comando a ser executado diretamente no código onde está sendo chamado `noSafePrint()`.
+1. **Comandos**: Mude o comando a ser executado diretamente no código onde está sendo chamado `Command()`.
 2. **Atrasos**: Ajuste os atrasos para garantir que os comandos sejam enviados corretamente. O código utiliza diferentes constantes para isso:
    - `SHORT_DELAY` - Atrazo pequeno (50ms)
    - `MEDIUM_DELAY` - Atrazo médio (100ms)
