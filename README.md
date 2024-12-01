@@ -1,5 +1,5 @@
 # 🚀 DigiSpark CIMI (Command Injection Malware Install)
-
+![1](LOGO.png)
 Este script foi desenvolvido para ser executado em dispositivos baseados em DigiSpark, utilizando a biblioteca `DigiKeyboard` para enviar comandos diretamente ao sistema. A principal funcionalidade é automatizar a injeção de comandos via CMD no Windows, com a execução de scripts e gerenciamento de janelas do sistema.
 
 ## ⚙️ Como funciona:
